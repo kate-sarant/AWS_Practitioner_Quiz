@@ -40,4 +40,4 @@ If you have any suggestions, questions, or feedback, feel free to reach out.
 Enjoy the AWS Cloud Practitioner Certification Quiz and best of luck with your preparations!
 
 #### Usage Rights
-This CV is provided for informational purposes only and is not intended for modification or distribution without express permission. All rights reserved.
+This quiz test is provided for informational purposes only and is not intended for modification or distribution without express permission. All rights reserved.
