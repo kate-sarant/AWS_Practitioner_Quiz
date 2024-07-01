@@ -120,13 +120,13 @@ questions = [
               "C. AWS Quantum Ledger Database",
               "D. Amazon DynamoDB"], "C"), 
               
-    Question("What does AWS IAM stand for?", 
+    Question("Which of the below are components that can be configured in the VPC section of the AWS management console?", 
              ["A. EBS volumes",
               "B. dns records",
               "C. subnet and endpoints",
               "D.elastic load balancer"], "C"),
 
-    Question("Which of the below are components that can be configured in the VPC section of the AWS management console?", 
+    Question("What does AWS IAM stand for?", 
              ["A. Amazon Web Services Integration and Management",
               "B. Amazon Identity and Access Management",
               "C. Amazon Web Server Instances Management",
@@ -297,7 +297,7 @@ def run_quiz(questions):
     for question in questions:
         counter+=1
         print('\n Question',counter,": ", question.prompt,'\n')
-        for index in enumerate(question.options):
+        for index,option in enumerate(question.options):
             print(question.options[index])
             #store the index of the correct answer
             correct_choice=index
